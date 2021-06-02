@@ -8,16 +8,21 @@ namespace CrudSqlServer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            DemoReflection demo = new DemoReflection();
-            Estudiante es = new Estudiante();
-            es.Apellidos = "Ramirez Gonzales";
+            //Console.WriteLine("Hello World!");
+            //DemoReflection demo = new DemoReflection();
+            //Estudiante es = new Estudiante();
+            //es.Apellidos = "Ramirez Gonzales";
 
-            demo.imprimePropiedades(es);
+            //demo.imprimePropiedades(es);
 
-            DemoGenericReflection<Estudiante> estudiante = new DemoGenericReflection<Estudiante>();
+            //DemoGenericReflection<Estudiante> estudiante = new DemoGenericReflection<Estudiante>();
 
-            estudiante.imprimeProps();
+            //estudiante.imprimeProps();
+
+            ConeccionEstudiante coneccionEstudiante = new ConeccionEstudiante();
+            coneccionEstudiante.ConsultaEstudiantes();
+
+            coneccionEstudiante.muestraEstudiantes(coneccionEstudiante.getEstudiantes());
         }
     }
 }

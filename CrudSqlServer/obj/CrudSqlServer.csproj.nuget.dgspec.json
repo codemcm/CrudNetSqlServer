@@ -4,6 +4,130 @@
     "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\CrudSqlServer\\CrudSqlServer.csproj": {}
   },
   "projects": {
+    "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.Database\\Crud.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.Database\\Crud.Database.csproj",
+        "projectName": "Crud.Database",
+        "projectPath": "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.Database\\Crud.Database.csproj",
+        "packagesPath": "C:\\Users\\martin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.DTO\\Crud.DTO.csproj": {
+                "projectPath": "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.DTO\\Crud.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.DTO\\Crud.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.DTO\\Crud.DTO.csproj",
+        "projectName": "Crud.DTO",
+        "projectPath": "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.DTO\\Crud.DTO.csproj",
+        "packagesPath": "C:\\Users\\martin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\CrudSqlServer\\CrudSqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -30,7 +154,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.Database\\Crud.Database.csproj": {
+                "projectPath": "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.Database\\Crud.Database.csproj"
+              },
+              "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.DTO\\Crud.DTO.csproj": {
+                "projectPath": "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.DTO\\Crud.DTO.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

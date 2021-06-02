@@ -1,0 +1,12 @@
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\bin\Debug\net5.0\Crud.DTO.deps.json
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\bin\Debug\net5.0\Crud.DTO.dll
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\bin\Debug\net5.0\ref\Crud.DTO.dll
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\bin\Debug\net5.0\Crud.DTO.pdb
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\obj\Debug\net5.0\Crud.DTO.csproj.AssemblyReference.cache
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\obj\Debug\net5.0\Crud.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\obj\Debug\net5.0\Crud.DTO.AssemblyInfoInputs.cache
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\obj\Debug\net5.0\Crud.DTO.AssemblyInfo.cs
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\obj\Debug\net5.0\Crud.DTO.csproj.CoreCompileInputs.cache
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\obj\Debug\net5.0\Crud.DTO.dll
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\obj\Debug\net5.0\ref\Crud.DTO.dll
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.DTO\obj\Debug\net5.0\Crud.DTO.pdb

@@ -130,6 +130,16 @@
             "rid": "win"
           }
         }
+      },
+      "Crud.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Crud.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Crud.DTO.dll": {}
+        }
       }
     }
   },
@@ -446,10 +456,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Crud.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Crud.DTO/Crud.DTO.csproj",
+      "msbuildProject": "../Crud.DTO/Crud.DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Crud.DTO >= 1.0.0",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -483,7 +499,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.DTO\\Crud.DTO.csproj": {
+              "projectPath": "C:\\Users\\martin\\Documents\\repositorios\\CrudNetSqlServer\\Crud.DTO\\Crud.DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

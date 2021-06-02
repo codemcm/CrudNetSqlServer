@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Crud.Database;
+using Crud.DTO;
+using System;
 
 namespace CrudSqlServer
 {
@@ -7,6 +9,11 @@ namespace CrudSqlServer
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            DemoReflection demo = new DemoReflection();
+            Estudiante es = new Estudiante();
+            es.Apellidos = "Ramirez Gonzales";
+
+            demo.imprimePropiedades(es);
         }
     }
 }

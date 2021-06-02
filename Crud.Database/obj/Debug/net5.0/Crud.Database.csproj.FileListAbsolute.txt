@@ -9,3 +9,7 @@ C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\
 C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\Crud.Database.dll
 C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\ref\Crud.Database.dll
 C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\Crud.Database.pdb
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\bin\Debug\net5.0\Crud.DTO.dll
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\bin\Debug\net5.0\Crud.DTO.pdb
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\Crud.Database.csproj.AssemblyReference.cache
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\Crud.Database.csproj.CopyComplete

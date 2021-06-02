@@ -14,6 +14,10 @@ namespace CrudSqlServer
             es.Apellidos = "Ramirez Gonzales";
 
             demo.imprimePropiedades(es);
+
+            DemoGenericReflection<Estudiante> estudiante = new DemoGenericReflection<Estudiante>();
+
+            estudiante.imprimeProps();
         }
     }
 }

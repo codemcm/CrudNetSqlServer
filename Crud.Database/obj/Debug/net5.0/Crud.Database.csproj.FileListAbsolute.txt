@@ -1,0 +1,11 @@
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\bin\Debug\net5.0\Crud.Database.deps.json
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\bin\Debug\net5.0\Crud.Database.dll
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\bin\Debug\net5.0\ref\Crud.Database.dll
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\bin\Debug\net5.0\Crud.Database.pdb
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\Crud.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\Crud.Database.AssemblyInfoInputs.cache
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\Crud.Database.AssemblyInfo.cs
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\Crud.Database.csproj.CoreCompileInputs.cache
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\Crud.Database.dll
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\ref\Crud.Database.dll
+C:\Users\martin\Documents\repositorios\CrudNetSqlServer\Crud.Database\obj\Debug\net5.0\Crud.Database.pdb

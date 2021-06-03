@@ -30,6 +30,7 @@ namespace Crud.Database
             for (int i = 0; i < lPropiedades.Length; i++)
             {
                 Console.WriteLine(lPropiedades[i].Name);
+                
             }
         }
     }

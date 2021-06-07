@@ -1,6 +1,6 @@
 ﻿using Crud.Database;
+using Crud.Database.GenericClass;
 using Crud.DTO;
-using System;
 
 namespace CrudSqlServer
 {
@@ -19,10 +19,10 @@ namespace CrudSqlServer
 
             //estudiante.imprimeProps();
 
-            ConeccionEstudiante coneccionEstudiante = new ConeccionEstudiante();
-            coneccionEstudiante.ConsultaEstudiantes();
-
-            coneccionEstudiante.muestraEstudiantes(coneccionEstudiante.getEstudiantes());
+            //ConeccionEstudiante coneccionEstudiante = new ConeccionEstudiante();
+            //coneccionEstudiante.ConsultaEstudiantes();
+            Listar<Estudiante> estudiante = new Listar<Estudiante>();
+            estudiante.muestraEstudiantes(estudiante.getList("select EstudianteId, Apellidos, Nombre, Direccion, Observaciones from Estudiante"));
         }
     }
 }

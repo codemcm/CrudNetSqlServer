@@ -3,6 +3,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Collections.Generic;
 using Crud.DTO;
+using System.Reflection;
 
 namespace Crud.Database
 {
@@ -74,7 +75,7 @@ namespace Crud.Database
             Estudiante estudiante;
             Console.WriteLine("bu");
             Conexion.Open();
-            string cadena = "select EstudianteId, Apellidos, Nombre from Estudiante";
+            string cadena = "select EstudianteId, Apellidos, Nombre, Direccion, Observaciones from Estudiante";
             SqlCommand comando = new SqlCommand(cadena, Conexion);
             SqlDataReader registros = comando.ExecuteReader();
             while (registros.Read())
@@ -85,6 +86,14 @@ namespace Crud.Database
                 //Console.WriteLine(registros["EstudianteId"].ToString());
                 //Console.WriteLine(registros["Apellidos"].ToString());
                 //Console.WriteLine(registros["Nombre"].ToString());
+                foreach (PropertyInfo prop in estudiante.GetType().GetProperties())
+                {
+                    if (!registros[prop.Name].Equals(DBNull.Value))
+                    {
+                        prop.SetValue(estudiante, registros[prop.Name], null);                  
+                    }
+                }
+                lEstudiantes.Add(estudiante);
             }
             Conexion.Close();
             return lEstudiantes;

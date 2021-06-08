@@ -21,8 +21,19 @@ namespace CrudSqlServer
 
             //ConeccionEstudiante coneccionEstudiante = new ConeccionEstudiante();
             //coneccionEstudiante.ConsultaEstudiantes();
-            Listar<Estudiante> estudiante = new Listar<Estudiante>();
-            estudiante.muestraEstudiantes(estudiante.getList("select EstudianteId, Apellidos, Nombre, Direccion, Observaciones from Estudiante"));
+            //Listar<Estudiante> estudiante = new Listar<Estudiante>();
+            //estudiante.muestraEstudiantes(estudiante.getList("select EstudianteId, Apellidos, Nombre, Direccion, Observaciones from Estudiante"));
+
+
+            Save estudiante = new Save();
+
+            string insertQuery= @"INSERT INTO Estudiante (Apellidos, Nombre, Direccion, Observaciones) VALUES('Cruz', 'Martin','mi direccion','sin observations...')";
+
+            string UpdateQuery = @"UPDATE Estudiante SET Nombre='Editado' WHERE EstudianteId=2";
+            string DeleteQuery = @"DELETE FROM Estudiante WHERE EstudianteId =1";
+            //estudiante.InsertData(insertQuery);
+            //estudiante.DeleteData(DeleteQuery);
+            estudiante.UpdateData(UpdateQuery);
         }
     }
 }
